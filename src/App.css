@@ -24,6 +24,14 @@
   color: white;
 }
 
+.border {
+  border: 1px solid black;
+  max-width: 300px;
+  padding: 15px;
+  margin: 15px;
+  margin: auto;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -32,6 +40,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
